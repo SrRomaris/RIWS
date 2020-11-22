@@ -1,0 +1,9 @@
+.Modal{
+    overflow-y: scroll;
+    max-height: 80vh;
+}
+
+.Modal p {
+    margin-bottom: 0px;
+    padding:0px;
+}

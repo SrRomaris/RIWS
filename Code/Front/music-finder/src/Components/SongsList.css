@@ -1,0 +1,30 @@
+
+.SongsList{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-basis: 90%;
+}
+.ListContainer{
+    display:flex;
+    position:relative;
+
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.InfoContainer{
+
+    display: flex;
+    flex-basis: 50%;
+    position:relative;
+    justify-content: space-between;
+    margin:0 8vw 0 8vw;
+
+}
+
+.InfoContainer span{
+background-color: white;
+border-radius: 5%;
+}

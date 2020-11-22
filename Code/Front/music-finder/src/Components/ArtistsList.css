@@ -1,0 +1,40 @@
+
+.ArtistsBar{
+    
+}
+.ArtistList {
+position: relative;
+display: flex;
+flex-direction: column;
+
+background-color: white;
+max-width:400px;
+height: fit-content;
+max-height: 200vh;
+flex-basis:40%;
+overflow-y:scroll;
+justify-self: flex-end;
+padding:16px;
+margin-top:32px;
+}
+
+.ArtistInfo{
+    display: flex;
+    flex-direction: column;
+    padding:8px;
+}
+.ArtistImage{
+    max-width:60px;
+    display: flex;
+}
+
+.ArtistItem{
+    display: flex;
+    flex-direction: row !important;
+    margin-top:8px;
+    padding: 8px;
+    flex-direction: column;
+    border-style:solid;
+    border-color:lightgray;
+    border-width: 2px;
+}

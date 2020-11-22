@@ -1,0 +1,14 @@
+.SongItem{
+    width: 300px;
+    max-width: 300px;
+    margin:24px;
+}
+
+.SongItem img{
+height:200px;
+max-width: 300px;
+}
+
+
+
+
